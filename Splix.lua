@@ -42,7 +42,7 @@ section1:textbox({name = "textbox",def = "default text",placeholder = "Enter Wal
 end})
 
 section1:keybind({name = "set ui keybind",def = nil,callback = function(key)
-   window.key = key
+   window.key = RightShift
 end})
 
 local picker = section1:colorpicker({name = "color",cpname = nil,def = Color3.fromRGB(255,255,255),callback = function(value)
