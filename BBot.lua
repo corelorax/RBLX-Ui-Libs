@@ -6441,7 +6441,7 @@ menu.Initialize({
 					{
 						type = "textbox",
 						name = "MenuName",
-						text = MenuName or "Bitch Bot",
+						text = MenuName or "FailedHit.pvt",
 					},
 					{
 						type = "button",
@@ -6503,7 +6503,7 @@ menu.Initialize({
 
 do
 	local wm = menu.watermark
-	wm.textString = " | " .. "Dev" .. " | " .. os.date("%b. %d, %Y")
+	wm.textString = " | " .. "Developer" .. " | " .. os.date("%b. %d, %Y")
 	wm.pos = Vector2.new(50, 9)
 	wm.text = {}
 	local fulltext = menu.options["Settings"]["Cheat Settings"]["MenuName"][1] .. wm.textString
@@ -6563,7 +6563,7 @@ textbox[4].Text = textbox[1]
 
 menu.load_time = math.floor((tick() - loadstart) * 1000)
 CreateNotification(string.format("Done loading the " .. menu.game .. " cheat. (%d ms)", menu.load_time))
-CreateNotification("Press DELETE to open and close the menu!")
+CreateNotification("Press RShift to open and close the menu!")
 
 loadingthing.Visible = false -- i do it this way because otherwise it would fuck up the Draw:UnRender function, it doesnt cause any lag sooooo
 if not menu.open then
