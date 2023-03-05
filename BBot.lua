@@ -6503,7 +6503,7 @@ menu.Initialize({
 
 do
 	local wm = menu.watermark
-	wm.textString = " | " .. "user" .. " | " .. os.date("%b. %d, %Y")
+	wm.textString = " | " .. "Dev" .. " | " .. os.date("%b. %d, %Y")
 	wm.pos = Vector2.new(50, 9)
 	wm.text = {}
 	local fulltext = menu.options["Settings"]["Cheat Settings"]["MenuName"][1] .. wm.textString
