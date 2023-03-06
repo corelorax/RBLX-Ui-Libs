@@ -1,3 +1,4 @@
+--// Credits: https://v3rmillion.net/showthread.php?tid=1203380
 
 local inputService   = game:GetService("UserInputService")
 local runService     = game:GetService("RunService")
