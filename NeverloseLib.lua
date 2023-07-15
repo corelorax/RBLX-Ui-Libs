@@ -1,3 +1,5 @@
+--// this shit is not accurate to what it should look like as neverlose ui. im currently remaking this shit but who knows if i release it publicly? i might post some devlog vids about the process
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/corelorax/Ui-Libs-Backups/main/NeverloseLibSource.lua"))()
 -- Toggle UI: Library:Toggle()
 
